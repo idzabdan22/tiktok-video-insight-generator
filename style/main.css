@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.nvbar {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #e9c8ff;
+}
+
+.nvbar > .container {
+  height: inherit;
+}
+
+.section {
+  color: #151515;
+  padding: 1rem;
+}
+
+.section > h3 {
+  padding-top: 1rem;
+}
+
+label {
+  color: #151515;
+  font-size: 1rem;
+}
+
+.faceto-light {
+  background-color: #e9c8ff;
+}
+
+.faceto-dark {
+  background-color: #d8a8f7;
+}
+
+.faceto-bright-txt {
+  color: #e1bff8;
+}
+
+.faceto-dark-txt {
+  color: #d8a8f7;
+}
+
+#generateReport-button,
+#download-button {
+  border-color: #d8a8f7;
+  background-color: #d8a8f7;
+  color: white;
+  font-size: 1rem;
+  border-radius: 100pt;
+  font-weight: 500;
+}
+
+#loadingInfo {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.85rem;
+  font-style: oblique;
+}
+
+#caution {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 0.25rem;
+  padding-left: 0.1rem;
+  font-size: 0.75rem;
+  color: red;
+}
+
+#download-button {
+  display: none;
+}
+
+#info {
+  opacity: 0;
+}
+
+#pbar {
+  color: white;
+  background-color: #efd7fd;
+}
+
+#homeButton {
+  color: #424243;
+}
+
+#homeButton:hover {
+  color: white;
+}
+
+#generateReport-container {
+  display: block;
+}

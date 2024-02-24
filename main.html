@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facetology App</title>
+    <link
+      rel="icon"
+      href="/assets/facetology-removebg-preview-2.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/style/main.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="/script/deleteLocalStorage.js"
+    ></script>
+    <script
+      defer
+      src="/script/pushToLocalStorage.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid nvbar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <img
+            src="/assets/facetology-removebg-preview-2.png"
+            width="80"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex justify-content-center section">
+        <h3>Insight Report Generator</h3>
+      </div>
+      <div class="section">
+        <div class="row g-2">
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <label style="padding-left: 0.5rem">List of Links</label>
+                <textarea class="form-control" id="vlink" rows="10"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center section">
+        <a
+          class="btn btn-primary"
+          href="/generateReports.html"
+          role="button"
+          id="generateReport-button"
+          >Generate Report</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
