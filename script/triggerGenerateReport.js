@@ -7,8 +7,6 @@ const makeCleanRequest = async (url) => {
   return JSON.parse(target_str);
 };
 
-urlExtractor
-
 const makeDirtyRequest = async (url) => {
   try {
     const response = await axios.get(url);
